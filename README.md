@@ -5,6 +5,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+This program written in C++ implements binary search trees and balanced binary trees with functions like: Insertion, Search and
+
 A degree 2 tree is called a binary tree (AB).
 
 An AB is balanced if the difference in the sizes of its two subtrees is at most
@@ -16,6 +18,8 @@ branch is:
 &emsp;● Greater than the values ​​of the nodes in its left subtree.
 
 &emsp;● Less than the values ​​of the nodes in its right subtree.
+
+![ABB](Binary_search_tree_example.gif)
 
 An abstract generic data type AB<Key> is developed to represent any tree
 binary containing values ​​of type key, Key. From AB<Key> the data types are derived
