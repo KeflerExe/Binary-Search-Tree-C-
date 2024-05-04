@@ -35,7 +35,7 @@ The main program accepts the following command line options:
 
 -ab <abe|abb>, to indicate the type of tree to work with.
 
--init "<i>" [s][f], indicates how to enter the sequence data
+-init [i] [s][f], indicates how to enter the sequence data
 
 i=manual
 
