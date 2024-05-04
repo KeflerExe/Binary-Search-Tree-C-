@@ -5,19 +5,45 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+A degree 2 tree is called a binary tree (AB).
 
-In different fields of science there is a need to work with very big, or very small  numerical values.
-With this program im implementing data types in C++ to handle 
-very large numeric values, exceeding the representation range of the defined data types
-in standard language. To do this, the generic data type BigInt<size_t Base> is defined
-which represents integers using positional notation. In this numbering system, the value of a digit depends on its relative position and the base, which determines the number of
-digits needed to write any number. By default, the decimal system will be used
-(base 10), although it is also common to use the binary (base 2), octal (base 8) and hexadecimal (base 16).
+An AB is balanced if the difference in the sizes of its two subtrees is at most
+one. A binary tree is perfectly balanced if all its branches are balanced.
 
-The representation range of the BigInt<size_t Base> data type encompasses any integer, positive or negative, that can be stored in machine memory.
-That is, the maximum range is limited by the maximum size that the system allows for the data structure where the digits are stored.
+A binary search tree (ABB) is an AB in which the value of the root of each
+branch is:
 
-Using the BigInt<Base> data type, the program implements a calculator for expressions in inverse Polish notation.
+&emsp;● Greater than the values ​​of the nodes in its left subtree.
+
+&emsp;● Less than the values ​​of the nodes in its right subtree.
+
+An abstract generic data type AB<Key> is developed to represent any tree
+binary containing values ​​of type key, Key. From AB<Key> the data types are derived
+generics ABE<Key> and ABB<Key>. The implementation of the generic type allows the following operations:
+
+&emsp;● Search: Checks if a given key is found in the tree.
+&emsp;● Insert: A new key is added to the tree.
+&emsp;● Traverse: All the nodes of the tree are traversed. According to the order established in the route
+
+We can find, among others, the following:
+
+&emsp;&emsp;○ Inorder: It is traversed in order: left subtree - root - right subtree
+
+&emsp;&emsp;○ By levels: The nodes of the different levels of the tree are traversed in order growing from the root and within each level from left to right.
+
+The main program accepts the following command line options:
+
+-ab <abe|abb>, to indicate the type of tree to work with.
+
+-init <i> [s][f], indicates how to enter the sequence data
+
+i=manual
+
+i=random [s], s is the number of elements to generate
+
+i=file [s][f], s is the number of elements to generate, f is name of the input file
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -55,8 +81,6 @@ No installation required :)
 g++ bigint_main.cc bigint_func.cc
 ```
 4. All ready!
-
-(You can find instructions about the arguments of the program inside the bigint_func.cc file.)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
