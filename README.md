@@ -5,7 +5,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This program written in C++ implements binary search trees and balanced binary trees with functions like: Insertion, Search and
+This program written in C++ implements binary search trees and balanced binary trees with functions like: Insertion, Search and Inorder and By Levels traversal.
 
 A degree 2 tree is called a binary tree (AB).
 
