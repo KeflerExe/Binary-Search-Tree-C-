@@ -37,7 +37,7 @@ We can find, among others, the following:
 
 &emsp;&emsp;○ By levels: The nodes of the different levels of the tree are traversed in order growing from the root and within each level from left to &emsp;right.
 
-The main program accepts the following command line options:
+**The main program accepts the following command line options:**
 
 -ab <abe|abb>, to indicate the type of tree to work with.
 
@@ -84,7 +84,7 @@ No installation required :)
 1. Download the files
 2. Compile with g++
 ```
-g++ bigint_main.cc bigint_func.cc
+g++ main_ab.cc
 ```
 4. All ready!
 
