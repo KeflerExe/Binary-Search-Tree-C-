@@ -29,7 +29,7 @@ We can find, among others, the following:
 
 &emsp;&emsp;○ Inorder: It is traversed in order: left subtree - root - right subtree
 
-&emsp;&emsp;○ By levels: The nodes of the different levels of the tree are traversed in order growing from the root and within each level from left to right.
+&emsp;&emsp;○ By levels: The nodes of the different levels of the tree are traversed in order growing from the root and within each level from left to &emsp;right.
 
 The main program accepts the following command line options:
 
