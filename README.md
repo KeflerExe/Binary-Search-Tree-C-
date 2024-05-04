@@ -22,7 +22,9 @@ binary containing values ​​of type key, Key. From AB<Key> the data types are
 generics ABE<Key> and ABB<Key>. The implementation of the generic type allows the following operations:
 
 &emsp;● Search: Checks if a given key is found in the tree.
+
 &emsp;● Insert: A new key is added to the tree.
+
 &emsp;● Traverse: All the nodes of the tree are traversed. According to the order established in the route
 
 We can find, among others, the following:
